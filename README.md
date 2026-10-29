@@ -1,16 +1,14 @@
-## Hi there 👋
+### hey, I'm Kay
 
-<!--
-**kaygaaf/kaygaaf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I tinker with automation, home setups, small tools, and whatever problem is annoying me that week.
 
-Here are some ideas to get you started:
+Most of my useful stuff lives in public repos under [kaygaaf](https://github.com/kaygaaf). If something here helps you out, coffee's always welcome:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**[Support on Ko-fi](https://ko-fi.com/kayorama)**
+
+Site: [kayorama.nl](https://kayorama.nl)
+
+
+
+
+
