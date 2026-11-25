@@ -22,6 +22,7 @@ Merged:
 
 In review:
 
+- [anchore/syft#5639](https://github.com/anchore/syft/pull/5639): keep a Yarn production package installed through an npm alias
 - [anchore/syft#5638](https://github.com/anchore/syft/pull/5638): keep a required Go module when exclude names another version
 - [ollama/ollama#19912](https://github.com/ollama/ollama/pull/19912): don't treat arr[img-1] as an image placeholder
 - [python-poetry/poetry#11284](https://github.com/python-poetry/poetry/pull/11284): keep a legacy lock extra empty when the requirement has no brackets
