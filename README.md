@@ -1,8 +1,8 @@
 ### hey, I'm Kay van Dijk
 
-I tinker with automation, home setups, small tools, and whatever problem is annoying me that week.
+I live in Voorburg. I tinker with automation, home setups, and small tools, and I send a patch when something I use is wrong.
 
-Main thing right now is [tattlr](https://github.com/kaygaaf/tattlr). It reads the logs your AI coding agents leave behind and gives you a rap sheet of what they actually did. It can also plant trap creds to see if anything goes snooping, and block bad calls live.
+Main thing right now is [tattlr](https://github.com/kaygaaf/tattlr). It reads the logs your coding agents leave behind and gives you a rap sheet of what they actually did. It can plant trap creds, and block bad calls live. Nothing leaves the machine.
 
 ```
 brew install kaygaaf/tap/tattlr
@@ -10,20 +10,33 @@ brew install kaygaaf/tap/tattlr
 npm i -g tattlr
 ```
 
-Latest is [v0.3.0](https://github.com/kaygaaf/tattlr/releases/tag/v0.3.0) (on GitHub and npm). It added rules for tearing down infra, poking cloud metadata endpoints, and container runs that grab the host. There's also [tattlr-action](https://github.com/kaygaaf/tattlr-action) if you want the same check in CI.
+Latest release is [v0.3.0](https://github.com/kaygaaf/tattlr/releases/tag/v0.3.0). [tattlr-action](https://github.com/kaygaaf/tattlr-action) runs the same check in CI.
+
+#### Patches elsewhere
+
+Merged:
+
+- [dandavison/delta#2334](https://github.com/dandavison/delta/pull/2334): emit the hunk record when the hunk header row is skipped
+- [compose-spec/compose-go#992](https://github.com/compose-spec/compose-go/pull/992): pull out variables nested inside required-error messages
+- [awesome-gemini-cli#365](https://github.com/Piebald-AI/awesome-gemini-cli/pull/365) and [awesome-ai-security-tools#227](https://github.com/scadastrangelove/awesome-ai-security-tools/pull/227): tattlr got listed
+
+In review:
+
+- [anchore/syft#5634](https://github.com/anchore/syft/pull/5634): keep installed dpkg packages marked for removal
+- [anchore/grype#3949](https://github.com/anchore/grype/pull/3949): don't rewrite CPE fields that only contain the package name
+- [npm/cli#10348](https://github.com/npm/cli/pull/10348): keep the commit on a git resolved URL in a yarn lock
+- [mikefarah/yq#2967](https://github.com/mikefarah/yq/pull/2967): accept an RFC3339 datetime that uses a space instead of T
+- [compose-spec/compose-go#997](https://github.com/compose-spec/compose-go/pull/997): keep resources used by pre_start hooks and jobs
+- [charmbracelet/x#1048](https://github.com/charmbracelet/x/pull/1048): don't let a cut-off UTF-8 rune hide an ESC
+- [securego/gosec#1832](https://github.com/securego/gosec/pull/1832) and [#1833](https://github.com/securego/gosec/pull/1833): detect a few more token shapes
+- [docker/buildx#4212](https://github.com/docker/buildx/pull/4212): imagetools and registry mirrors that include a path
 
 #### Smaller tools
 
 - [dotenv-guard](https://github.com/kaygaaf/dotenv-guard): pre-commit hook that stops `.env` files and obvious secrets from getting committed
-- [compose-env](https://github.com/kaygaaf/compose-env): tells you which `${VARS}` your compose file needs that aren't set, without printing values
+- [compose-env](https://github.com/kaygaaf/compose-env): which `${VARS}` a compose file needs, without printing values
 - [busy-port](https://github.com/kaygaaf/busy-port): what's sitting on port 8080?
-- [ha-yaml-kit](https://github.com/kaygaaf/ha-yaml-kit): templates and checks for Home Assistant automation YAML
-
-#### Fixes that landed elsewhere
-
-- [dandavison/delta#2334](https://github.com/dandavison/delta/pull/2334): emit the hunk record when the hunk header row is skipped
-- [compose-spec/compose-go#992](https://github.com/compose-spec/compose-go/pull/992): pull out variables nested inside required-error messages
-- [Piebald-AI/awesome-gemini-cli#365](https://github.com/Piebald-AI/awesome-gemini-cli/pull/365) and [awesome-ai-security-tools#227](https://github.com/scadastrangelove/awesome-ai-security-tools/pull/227): tattlr got listed
+- [ha-yaml-kit](https://github.com/kaygaaf/ha-yaml-kit): checks for Home Assistant automation YAML
 
 If something here helps you out, coffee's always welcome:
 
