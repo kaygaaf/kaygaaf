@@ -22,6 +22,7 @@ Merged:
 
 In review:
 
+- [anchore/syft#5638](https://github.com/anchore/syft/pull/5638): keep a required Go module when exclude names another version
 - [ollama/ollama#19912](https://github.com/ollama/ollama/pull/19912): don't treat arr[img-1] as an image placeholder
 - [python-poetry/poetry#11284](https://github.com/python-poetry/poetry/pull/11284): keep a legacy lock extra empty when the requirement has no brackets
 - [python-poetry/poetry#11283](https://github.com/python-poetry/poetry/pull/11283): keep a bracket in a path or URL when the extra is at the end
