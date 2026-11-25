@@ -22,6 +22,7 @@ Merged:
 
 In review:
 
+- [python-poetry/poetry#11283](https://github.com/python-poetry/poetry/pull/11283): keep a bracket in a path or URL when the extra is at the end
 - [anchore/syft#5634](https://github.com/anchore/syft/pull/5634): keep installed dpkg packages marked for removal
 - [anchore/grype#3949](https://github.com/anchore/grype/pull/3949): don't rewrite CPE fields that only contain the package name
 - [npm/cli#10348](https://github.com/npm/cli/pull/10348): keep the commit on a git resolved URL in a yarn lock
