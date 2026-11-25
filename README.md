@@ -1,6 +1,6 @@
 ### hey, I'm Kay van Dijk
 
-I live in Voorburg. I tinker with automation, home setups, and small tools, and I send a patch when something I use is wrong.
+I tinker with automation, home setups, and small tools, and I send a patch when something I use is wrong.
 
 Main thing right now is [tattlr](https://github.com/kaygaaf/tattlr). It reads the logs your coding agents leave behind and gives you a rap sheet of what they actually did. It can plant trap creds, and block bad calls live. Nothing leaves the machine.
 
