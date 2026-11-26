@@ -22,6 +22,7 @@ Merged:
 
 In review:
 
+- [jestjs/jest#16580](https://github.com/jestjs/jest/pull/16580): don't tell an npx jest run to update snapshots with `npm run npx`
 - [wezterm/wezterm#8392](https://github.com/wezterm/wezterm/pull/8392): draw branch glyphs with the light stroke
 - [yarnpkg/berry#7360](https://github.com/yarnpkg/berry/pull/7360): keep an ampersand inside a patch path
 - [helix-editor/helix#16499](https://github.com/helix-editor/helix/pull/16499): don't freeze on Enter in a Rust file with a stack of attributes
