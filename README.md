@@ -23,6 +23,7 @@ Merged:
 
 In review:
 
+- [throttled/throttled#119](https://github.com/throttled/throttled/pull/119): a quantity-0 peek no longer consumes a slot when its swap loses
 - [jestjs/jest#16580](https://github.com/jestjs/jest/pull/16580): don't tell an npx jest run to update snapshots with `npm run npx`
 - [yarnpkg/berry#7360](https://github.com/yarnpkg/berry/pull/7360): keep an ampersand inside a patch path
 - [helix-editor/helix#16499](https://github.com/helix-editor/helix/pull/16499): don't freeze on Enter in a Rust file with a stack of attributes
