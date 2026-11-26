@@ -23,6 +23,7 @@ Merged:
 
 In review:
 
+- [remix-run/react-router#15840](https://github.com/remix-run/react-router/pull/15840): reload the page when a manifest mismatch target only differs by its hash
 - [throttled/throttled#119](https://github.com/throttled/throttled/pull/119): a quantity-0 peek no longer consumes a slot when its swap loses
 - [jestjs/jest#16580](https://github.com/jestjs/jest/pull/16580): don't tell an npx jest run to update snapshots with `npm run npx`
 - [yarnpkg/berry#7360](https://github.com/yarnpkg/berry/pull/7360): keep an ampersand inside a patch path
