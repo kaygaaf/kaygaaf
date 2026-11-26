@@ -22,6 +22,7 @@ Merged:
 
 In review:
 
+- [wezterm/wezterm#8392](https://github.com/wezterm/wezterm/pull/8392): draw branch glyphs with the light stroke
 - [yarnpkg/berry#7360](https://github.com/yarnpkg/berry/pull/7360): keep an ampersand inside a patch path
 - [helix-editor/helix#16499](https://github.com/helix-editor/helix/pull/16499): don't freeze on Enter in a Rust file with a stack of attributes
 - [anchore/syft#5639](https://github.com/anchore/syft/pull/5639): keep a Yarn production package installed through an npm alias
