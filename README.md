@@ -6,11 +6,9 @@ Main thing right now is [tattlr](https://github.com/kaygaaf/tattlr). It reads th
 
 ```
 brew install kaygaaf/tap/tattlr
-# or
-npm i -g tattlr
 ```
 
-Latest release is [v0.3.0](https://github.com/kaygaaf/tattlr/releases/tag/v0.3.0). [tattlr-action](https://github.com/kaygaaf/tattlr-action) runs the same check in CI.
+Latest release is [v0.4.0](https://github.com/kaygaaf/tattlr/releases/tag/v0.4.0). npm is still 0.3.0. [tattlr-action](https://github.com/kaygaaf/tattlr-action) runs the same check in CI.
 
 #### Patches elsewhere
 
