@@ -23,6 +23,7 @@ Merged:
 
 In review:
 
+- [actix/actix-web#4474](https://github.com/actix/actix-web/pull/4474): a short Content-Length is an incomplete body, not a clean end
 - [labstack/echo#3254](https://github.com/labstack/echo/pull/3254): hold the XML status until the encoder writes
 - [remix-run/react-router#15840](https://github.com/remix-run/react-router/pull/15840): reload the page when a manifest mismatch target only differs by its hash
 - [throttled/throttled#119](https://github.com/throttled/throttled/pull/119): a quantity-0 peek no longer consumes a slot when its swap loses
