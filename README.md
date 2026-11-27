@@ -23,6 +23,7 @@ Merged:
 
 In review:
 
+- [grafana/k6#6738](https://github.com/grafana/k6/pull/6738): a repeated pause request no longer fails the REST status call
 - [curl/curl#24171](https://github.com/curl/curl/pull/24171): ignore Set-Cookie on a 1xx response
 - [distribution/distribution#5108](https://github.com/distribution/distribution/pull/5108): read blob upload query params from the URL, so a multipart body does not leave temp files
 - [podman-container-tools/buildah#7260](https://github.com/podman-container-tools/buildah/pull/7260): keep the second on a copied file mtime
