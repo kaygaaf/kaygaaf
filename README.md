@@ -23,7 +23,6 @@ Merged:
 
 In review:
 
-- [hyperium/hyper#4287](https://github.com/hyperium/hyper/pull/4287): a request reset with NO_ERROR is not a finished upload
 - [podman-container-tools/buildah#7260](https://github.com/podman-container-tools/buildah/pull/7260): keep the second on a copied file mtime
 - [actix/actix-web#4474](https://github.com/actix/actix-web/pull/4474): a short Content-Length is an incomplete body, not a clean end
 - [labstack/echo#3254](https://github.com/labstack/echo/pull/3254): hold the XML status until the encoder writes
