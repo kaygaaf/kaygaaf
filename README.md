@@ -23,6 +23,7 @@ Merged:
 
 In review:
 
+- [curl/curl#24171](https://github.com/curl/curl/pull/24171): ignore Set-Cookie on a 1xx response
 - [distribution/distribution#5108](https://github.com/distribution/distribution/pull/5108): read blob upload query params from the URL, so a multipart body does not leave temp files
 - [podman-container-tools/buildah#7260](https://github.com/podman-container-tools/buildah/pull/7260): keep the second on a copied file mtime
 - [actix/actix-web#4474](https://github.com/actix/actix-web/pull/4474): a short Content-Length is an incomplete body, not a clean end
